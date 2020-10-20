@@ -1,0 +1,89 @@
+html,body,div,header,footer,main, img, a,ul,nav,li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: chartreuse;
+}
+.five {
+    height:50vh;
+    width: 37vh;
+}
+.three,  .two,.four{
+    height:50vh;
+}
+header {
+    background-color: hotpink;
+
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    /* overflow: hidden; */
+}
+main {
+    padding: 0;
+    text-align: center;
+    background-color: indigo;
+    height: 60vh;
+}
+footer {
+    height: 32vh;
+    background-color: green;
+}
+img {
+    margin-top: 25px;
+}
+ a {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    color: honeydew;
+}
+
+ul {
+   
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+     align-items: flex-start; 
+}
+.menu li{
+    background-color: rgb(247, 143, 25);
+    margin: 10px;
+    padding: 15px;}
+ a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.home {
+    width: 30%;
+}
+.sweet {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   width: 70%;
+}
+li {
+    
+    border:2px dashed green;
+    border-radius: 10px;
+    padding:5px;
+    margin: 15px;
+    background-color:indigo;
+}
+
+button {
+    border: 0;
+    color: black;
+}
+.sweet ul li:hover {
+    background-color: indigo;
+}
+
+
